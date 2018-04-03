@@ -7,6 +7,7 @@ server:
 logging:
   config: classpath:logback-spring.xml
   file: saas-web
+  path: /
 
 ##mybatis
 mybatis:
