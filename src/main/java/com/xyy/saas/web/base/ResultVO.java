@@ -20,7 +20,7 @@ public class ResultVO<T>{
     }
 
     public static<T> ResultVO<T> createSuccess(T result){
-        return new ResultVO(result);
+        return new ResultVO<T>(result);
     }
 
     public int getCode() {
